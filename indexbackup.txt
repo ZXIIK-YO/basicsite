@@ -40,10 +40,10 @@
               </ul>
             </li>
             
-            <li><a href="paginas/tabela.html">Mangás</a>
+            <li><a href="#">Mangás</a>
               <ul>
                 <li><a href="#">Top Week</a></li>
-                <li><a href="paginas/lista.html">Populares</a></li>
+                <li><a href="#">Populares</a></li>
                 <li><a href="#">Lançamentos</a></li>
               </ul>
             </li>

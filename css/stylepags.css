@@ -1,0 +1,50 @@
+.container{
+ display: flex;
+ flex-direction: column; 
+ margin-left: 10%;
+ margin-right: 10%;
+}
+
+#idtitle{
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 3.125em;
+  line-height: 1.12;
+  color: #252627;
+  margin: 50px 0;
+}
+
+#id-check{
+  font-size: 1.7em;
+  opacity: .5;
+  margin-bottom: 30px;
+}
+
+#idtext p {
+font-size: 1.25em;
+margin-bottom: 20px;
+max-width: 70%;
+}
+
+#idtext h3{
+color: rgb(24, 139, 233);
+font-size: 1.7em;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+#idtext img {
+  max-width: 70%;
+  margin-bottom: 30px;
+}
+
+
+#myFooter{
+  background-color: rgb(24, 139, 233);
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;    
+  text-align: center;
+}
