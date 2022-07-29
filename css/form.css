@@ -136,7 +136,7 @@ input[type="submit"]:hover{
   margin: 0 0 35px 0;
   background: #f5f5f5;
   border: 1px solid rgb(37, 37, 39);
-  
+  box-shadow: 5px;
   -webkit-box-shadow: 5px;
   border-radius: 5px;
   

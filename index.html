@@ -3,28 +3,42 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="Imagens/logo.png" type="image/x-icon">
     <title>GAME OVER</title>
     <script src="https://kit.fontawesome.com/d283bb670b.js" crossorigin="anonymous"></script>
     <link href="css/global.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
   </head>
   <body class="body">
-      <header class="header">
-     <a href="##"><img src="Imagens/logo.png" alt="logo" id="imglogo"></a>
+    <header class="header">
+      <div class="logoh">
+    
+        <a href="##"><img src="Imagens/logo.png" alt="logo" id="imglogo"></a>
+       
+      </div>
+
+      <div id="divb">
+      <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        <div id="iconbar"> <i class="fas fa-search"></i> </div>
+      </div>
+      </div>
+
     </header>
+
     <input type="checkbox" id="bt-menu">
+
     <label for="bt-menu">&#9776;</label>
     <nav class="navbar">
 
         <ul>
             <li>
-                <a href="paginas/berserk.html">
+                <a href="#">
                   Página Inicial
                 </a>
             </li>
 
-            <li><a href="paginas/bnhfilme.html">Jogos</a>
+            <li><a href="paginas/reartes.html">Jogos</a>
               <ul>
                 <li><a href="#">PlayStation</a></li>
                 <li><a href="#">XBOX</a></li>
@@ -32,18 +46,18 @@
               </ul>
             </li>
             
-            <li><a href="paginas/reartes.html">Cinema</a>
+            <li><a href="paginas/bnhfilme.html">Cinema</a>
               <ul>
-                <li><a href="#">Filmes</a></li>
+                <li><a href="paginas/bnhfilme.html">Filmes</a></li>
                 <li><a href="#">Séries</a></li>
                 <li><a href="#">HQs</a></li>
               </ul>
             </li>
             
-            <li><a href="paginas/tabela.html">Mangás</a>
+            <li><a href="paginas/berserk.html">Mangás</a>
               <ul>
                 <li><a href="#">Top Week</a></li>
-                <li><a href="paginas/lista.html">Populares</a></li>
+                <li><a href="#">Populares</a></li>
                 <li><a href="#">Lançamentos</a></li>
               </ul>
             </li>
@@ -58,7 +72,7 @@
 
         <section class="flex">
           <div>
-           <a href="paginas/reartes.html"><img src="Imagens/P1.jpg" alt="img1" class="teste1"></a>
+           <a href="paginas/reartes.html"><img src="Imagens/P1.jpg" alt="img1" class="img-responsive"></a>
             <h3>Resident Evil, The Last of Us: Artes imaginam jogos como HQs</h3>
           </div>
 
@@ -93,12 +107,12 @@
             </div>
             <div>
               <img src="https://sm.ign.com/ign_br/screenshot/default/sailormoon_uyes.jpg" alt="img2">
-              <h2><a href="#" class="caption">Cosplay é a união perfeita de Sailor Moon e Mulher-Maravilha></a></h2>
+              <h2><a href="#" class="caption">Cosplay é a união perfeita de Sailor Moon e Mulher-Maravilha</a></h2>
             </div>
 
             <div>
               <img src="https://sm.ign.com/ign_br/screenshot/default/poltrona-loki-estreia-disney-plus_5aj2.png" alt="img2">
-              <h2> <a href="#" class="caption">Cosplay é a união perfeita de Sailor Moon e Mulher-Maravilha</a></h2>
+              <h2> <a href="#" class="caption">Loki: Data de estreia, trailers, elenco, história e mais</a></h2>
             </div>
 
           </div>
@@ -107,17 +121,17 @@
 
             <div>
               <img src="https://i2.wp.com/manualdosgames.com/wp-content/uploads/2021/06/Battlefield-1170x720.jpg" alt="img2">
-              <h2><a href="#" class="caption">Cosplay é a união perfeita de Sailor Moon e Mulher-Maravilha</a></h2>
+              <h2><a href="#" class="caption">Novo Battlefield para celulares e Battlefield 6 com ainda mais jogadores</a></h2>
             </div>
 
             <div>
               <img src="https://sm.ign.com/ign_br/screenshot/default/bloodstained_7kty.jpg" alt="img2">
-              <h2><a href="#" class="caption">Cosplay é a união perfeita de Sailor Moon e Mulher-Maravilha</a></h2>
+              <h2><a href="#" class="caption">Bloodstained: Ritual of the Night pode ter uma sequência</a></h2>
             </div>
 
             <div>
               <img src="https://assets-prd.ignimgs.com/2021/05/24/e3-2021-1620912118913-1621853011544.jpg" alt="img2">
-              <h2><a href="#" class="caption">Cosplay é a união perfeita de Sailor Moon e Mulher-Maravilha</a></h2>
+              <h2><a href="#" class="caption">E3 2021: Confira a programação completa de cobertura do evento</a></h2>
             </div>
 
           </div>
@@ -136,7 +150,7 @@
                 <li><a href="#">Críticas</a></li>
                 <li><a href="#">Notícias</a></li>
             </ul>
-            <p class="footer-copyright">© 2019 Copyright - Caio Santos</p>
+            <p class="footer-copyright">© 2021 Copyright - C.S. & M.C.</p>
         </div>
         <div class="footer-social">
             <a href="#" class="social-icons"><i class="fa fa-facebook"></i></a>
@@ -146,6 +160,26 @@
         </div>
     </footer>
 
-  
+    <div class="cookies-container">
+      <div class="cookies-content">
+        <p>Permito o uso de cookies para:</p>
+        <div class="cookies-pref">
+          <label><input type="checkbox" checked data-function="analytics">Análise de Uso</label>
+          <label><input type="checkbox" checked data-function="marketing">Marketing</label>
+        </div>
+        <button class="cookies-save">Salvar e Continuar</button>
+      </div>
+    </div>
+
+    <div id="modal-promocao" class="modal-container">
+      <div class="modal">
+        <button class="fechar">X</button>
+        <a href="#"><img src="Imagens/anuncio.jpg" alt="AAA"></a>
+      </div>
+
+    </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
   </body>
 </html>
